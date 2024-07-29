@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgye20n5mufov"]
+
+[ext_resource type="Script" path="res://canon.gd" id="1_1ab2m"]
+[ext_resource type="Texture2D" uid="uid://bof7bdpkpdaty" path="res://assets/canon.png" id="1_urkk1"]
+
+[node name="Canon" type="Node2D"]
+script = ExtResource("1_1ab2m")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = -1.5708
+texture = ExtResource("1_urkk1")
